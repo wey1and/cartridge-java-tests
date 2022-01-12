@@ -1,0 +1,32 @@
+---
+connections-test.router-1:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+connections-test.router-2:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+connections-test.router-3:
+  advertise_uri: localhost:3303
+  http_port: 8083
+
+connections-test.s1-master:
+  advertise_uri: localhost:3312
+  http_port: 8092
+
+connections-test.s1-replica:
+  advertise_uri: localhost:3313
+  http_port: 8093
+
+connections-test.s2-master:
+  advertise_uri: localhost:3314
+  http_port: 8094
+
+connections-test.s2-replica:
+  advertise_uri: localhost:3315
+  http_port: 8095
+
+connections-test-stateboard:
+  listen: localhost:4401
+  password: passwd
